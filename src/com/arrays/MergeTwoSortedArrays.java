@@ -2,6 +2,15 @@ package com.arrays;
 
 import java.util.Arrays;
 
+/*
+Input:
+        [0, 2, 7, 10, 33, 1000];
+        [-1, 0, 0, 20, 999, 15000];
+
+Output:
+        [-1, 0, 0, 0, 2, 7, 10, 20, 33, 999, 1000, 15000]
+ */
+
 public class MergeTwoSortedArrays {
     public static void main(String[] args) {
         int[] arr1 = {0, 2, 7, 10, 33, 1000};

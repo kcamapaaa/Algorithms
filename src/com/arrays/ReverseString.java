@@ -1,5 +1,10 @@
 package com.arrays;
 
+    /*
+    Input: "Hello!"
+    Output: "!olleH"
+     */
+
 public class ReverseString {
     public static void main(String[] args) {
         System.out.println(reverseString("Hello!"));
